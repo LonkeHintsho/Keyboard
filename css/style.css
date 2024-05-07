@@ -1,55 +1,60 @@
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: pink;
-    text-align: center;
+body{
+    background-color: plum;
 }
 .container{
-    margin: 160px 0 0 120px;
+    margin: 160px  0 0 200px;
 }
-h1 {
-    font-size: 100px;
-
-}
-
-input {
-    width: 100px;
-    height: 100px;
-
-}
-
 .row{
-    width: 100%;
-    height: 60px;
+width: 100%;
+height: 60px;
 }
 .one,.two,.three,.four,.five,.six{
     margin: 10px 0 0 0;
 }
-
-.btn {
-    /*width: 50px;
-    height: 50px;
-    font-size: 15px;
-    border-radius: 80px;
-    margin: 10px;
-    background-color: rgb(255, 139, 226);
-    color: rgb(44, 0, 43);*/
-
-    color: aliceblue;
+button{
+    color: black;
     width: 55px;
     height: 55px;
     border: none;
-    background: coral;
-    box-shadow: 5px 5px 10px rgb(237, 235, 235), -5px -5px 10px #0000;
+    border-radius: 10px;
+    background-color: pink;
+    box-shadow: 5px 5px 10px rgb(100, 59, 92), -5px 10px rgb(241, 158, 178);
     font-size: 20px;
-    margin-left: 5px;
-    font-family: 'Courier New', Courier, monospace;
-    border-radius: 20%;
+    margin-left: 10px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button:active{
+    box-shadow: 1px 1px 2px rgb(210, 203, 204), -1px, -1px rgb(204, 190, 192);
+}
+.del{
+    width: 100px;
+}
+.in, .prt{
+    width: 60px;
+}
+.back{
+    width: 245px;
+}
+.tab{
+    width: 150px;
+}
+.enter{
+    width: 190px;
+}
+.caps{
+    width: 180px;
+}
+.shift{
+    width: 220px;
+}
+.space{
+    width: 300px;
+}
+.home{
+    width: 80px;
+}
+.slash{
+    width: 150px;
 }
 
